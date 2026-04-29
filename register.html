@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - Luxury Hostels India</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+
+<body class="auth-page">
+    <div class="auth-container">
+        <!-- Left Side - Image -->
+        <div class="auth-left">
+            <div class="auth-brand">
+                <i class="fas fa-hotel"></i>
+                <h1>Luxury Hostels India</h1>
+                <p>Join 50K+ travelers booking 5-star hostels</p>
+            </div>
+        </div>
+
+        <!-- Right Side - Register Form -->
+        <div class="auth-right">
+            <div class="auth-form">
+                <h2>Create Account</h2>
+                <p>Sign up for luxury hostel bookings</p>
+
+                <form id="register-form">
+                    <div class="input-group">
+                        <i class="fas fa-user"></i>
+                        <input type="text" id="reg-name" placeholder="Full Name" required>
+                    </div>
+                    <div class="input-group">
+                        <i class="fas fa-envelope"></i>
+                        <input type="email" id="reg-email" placeholder="Email" required>
+                    </div>
+                    <div class="input-group">
+                        <i class="fas fa-phone"></i>
+                        <input type="tel" id="reg-phone" placeholder="Phone Number" required>
+                    </div>
+                    <div class="input-group">
+                        <i class="fas fa-lock"></i>
+                        <input type="password" id="reg-password" placeholder="Password" required>
+                        <span class="eye-toggle" onclick="togglePassword('reg-password')">
+                            <i class="fas fa-eye"></i>
+                        </span>
+                    </div>
+                    <div class="input-group">
+                        <i class="fas fa-lock"></i>
+                        <input type="password" id="reg-confirm-password" placeholder="Confirm Password" required>
+                        <span class="eye-toggle" onclick="togglePassword('reg-confirm-password')">
+                            <i class="fas fa-eye"></i>
+                        </span>
+                    </div>
+
+                    <label class="checkbox-group">
+                        <input type="checkbox" required>
+                        <span class="checkmark"></span>
+                        I agree to Terms & Privacy Policy
+                    </label>
+
+                    <button type="submit" class="auth-btn">
+                        <span>Create Account</span>
+                        <i class="fas fa-user-plus"></i>
+                    </button>
+                </form>
+
+                <div class="divider">
+                    <span>or continue with</span>
+                </div>
+
+                <div class="social-login">
+                    <button class="social-btn google">
+                        <i class="fab fa-google"></i> Google
+                    </button>
+                    <button class="social-btn phonepe">
+                        <i class="fab fa-phone"></i> PhonePe
+                    </button>
+                </div>
+
+                <p class="auth-link">
+                    Already have an account?
+                    <a href="login.html">Login here</a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/auth.js"></script>
+</body>
+<footer class="auth-footer">
+    <p>&copy; 2024 <strong>H&H Luxury Hostels</strong> |
+        <a href="mailto:support@H&HLuxury.com">support@H&HLuxury.com</a> |
+        <a href="privacy.html">Privacy</a> | <a href="terms.html">Terms</a>
+    </p>
+</footer>
+
+</html>
