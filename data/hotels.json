@@ -1,0 +1,106 @@
+{
+    "hostels": [
+        {
+            "id": 1,
+            "name": "Zostel Goa - Luxury Wing",
+            "location": "Anjuna Beach, Goa",
+            "region": "Goa",
+            "price": 3500,
+            "rating": 4.9,
+            "image": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=400&h=300&fit=crop",
+            "features": [
+                "AC Private Rooms",
+                "Infinity Pool",
+                "Rooftop Lounge",
+                "Breakfast Included",
+                "Beach Access"
+            ],
+            "description": "5-star luxury hostel right on Anjuna Beach with private beach access"
+        },
+        {
+            "id": 2,
+            "name": "The Hosteller Manali Premium",
+            "location": "Old Manali, Himachal Pradesh",
+            "region": "Himachal Pradesh",
+            "price": 4200,
+            "rating": 4.8,
+            "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+            "features": [
+                "Mountain View Rooms",
+                "Private Jacuzzi",
+                "Bonfire Area",
+                "Café",
+                "Spa Services"
+            ],
+            "description": "Premium luxury stay with stunning Himalayan views and world-class amenities"
+        },
+        {
+            "id": 3,
+            "name": "Moustache Hostel Rishikesh Deluxe",
+            "location": "Tapovan, Rishikesh, Uttarakhand",
+            "region": "Uttarakhand",
+            "price": 3800,
+            "rating": 4.9,
+            "image": "https://images.unsplash.com/photo-1551632811-561732d1e306?w=400&h=300&fit=crop",
+            "features": [
+                "Ganges River View",
+                "Yoga Deck",
+                "Infinity Pool",
+                "Organic Café",
+                "Meditation Hall"
+            ],
+            "description": "Luxury riverside hostel perfect for yoga and spiritual retreats"
+        },
+        {
+            "id": 4,
+            "name": "Zostel Mumbai - Bandra Luxury",
+            "location": "Bandra West, Mumbai",
+            "region": "Maharashtra",
+            "price": 4500,
+            "rating": 4.7,
+            "image": "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=400&h=300&fit=crop",
+            "features": [
+                "Sea View Balconies",
+                "Rooftop Infinity Pool",
+                "Fine Dining",
+                "Gym",
+                "Spa"
+            ],
+            "description": "Urban luxury in the heart of Mumbai's trendiest neighborhood"
+        },
+        {
+            "id": 5,
+            "name": "The Hosteller Jaipur Premium",
+            "location": "Civil Lines, Jaipur",
+            "region": "Rajasthan",
+            "price": 3900,
+            "rating": 4.8,
+            "image": "https://images.unsplash.com/photo-1571883928745-f86d233dd7e9?w=400&h=300&fit=crop",
+            "features": [
+                "Heritage Building",
+                "Private Courtyard",
+                "Rajasthani Cuisine",
+                "Cultural Shows",
+                "AC Rooms"
+            ],
+            "description": "Royal luxury hostel in a restored heritage haveli"
+        },
+        {
+            "id": 6,
+            "name": "Zostel Kerala - Fort Kochi",
+            "location": "Fort Kochi, Kerala",
+            "region": "Kerala",
+            "price": 4100,
+            "rating": 4.9,
+            "image": "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=400&h=300&fit=crop",
+            "features": [
+                "Backwater Views",
+                "Ayurveda Spa",
+                "Private Beach",
+                "Kerala Cuisine",
+                "Yoga"
+            ],
+            "description": "Luxury beachfront hostel with authentic Kerala experience"
+        }
+    ]
+}

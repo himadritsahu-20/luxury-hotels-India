@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>H&H Luxury Hostels - 5-Star Hostels</title>
+    <meta name="description"
+        content="H&H Luxury Hostels - Premium 5-star hostels across India. Book with PhonePe. support@H&HLuxury.com">
+    <meta name="keywords" content="luxury hostels india, 5 star hostels, H&H Luxury, PhonePe booking">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">
+                <i class="fas fa-hotel"></i>
+                <span>H&H Luxury Hostels</span>
+            </a>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#regions">Regions</a></li>
+                <li><a href="hostels.html">Hostels</a></li>
+                <li><a href="chatbot.html">Chatbot</a></li>
+                <li id="loginBtn" class="login-link">Login</li>
+            </ul>
+            <div class="hamburger">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>India's Finest 5-Star Luxury Hostels</h1>
+            <p>Premium accommodations in every tourist destination - from Goa beaches to Himalayan retreats</p>
+            <button class="cta-btn" onclick="window.location.href='hostels.html'">
+                Explore Luxury Hostels
+            </button>
+        </div>
+
+        <!-- Chatbot Toggle -->
+        <button id="chatbot-toggle" class="chatbot-btn" title="Chat with AI Assistant">
+            <i class="fas fa-comments"></i>
+        </button>
+    </section>
+
+    <!-- Regions Section -->
+    <section id="regions" class="regions">
+        <div class="container">
+            <h2>Popular Luxury Destinations</h2>
+            <div class="regions-grid" id="regions-grid">
+                <!-- Dynamic content -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features py-5" style="background: var(--bg-light);">
+        <div class="container">
+            <div
+                style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem; text-align: center;">
+                <div>
+                    <i class="fas fa-star"
+                        style="font-size: 3rem; color: var(--primary-gold); margin-bottom: 1rem;"></i>
+                    <h3>5-Star Only</h3>
+                    <p>Handpicked luxury hostels with premium amenities</p>
+                </div>
+                <div>
+                    <i class="fab fa-phone"
+                        style="font-size: 3rem; color: var(--success-green); margin-bottom: 1rem;"></i>
+                    <h3>PhonePe Payments</h3>
+                    <p>Secure UPI, cards & net banking. Instant confirmation</p>
+                </div>
+                <div>
+                    <i class="fas fa-mobile-alt"
+                        style="font-size: 3rem; color: var(--accent-blue); margin-bottom: 1rem;"></i>
+                    <h3>Mobile First</h3>
+                    <p>Book from anywhere. Works on all devices</p>
+                </div>
+                <div>
+                    <i class="fas fa-headset"
+                        style="font-size: 3rem; color: var(--primary-gold); margin-bottom: 1rem;"></i>
+                    <h3>24/7 Support</h3>
+                    <p>AI Chatbot + human support for instant help</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Chatbot Modal -->
+    <div id="chatbot" class="chatbot-container">
+        <div class="chatbot-header">
+            <span><i class="fas fa-robot"></i> Luxury Assistant</span>
+            <button id="close-chatbot">&times;</button>
+        </div>
+        <div class="chatbot-messages" id="chatbot-messages"></div>
+        <div class="chatbot-input">
+            <input type="text" id="chatbot-input" placeholder="Ask about hostels, payments...">
+            <button id="chatbot-send"><i class="fas fa-paper-plane"></i></button>
+        </div>
+    </div>
+
+    <!-- Login Modal -->
+    <div id="login-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Login to Book Luxury</h2>
+            <form id="login-form">
+                <div class="input-group">
+                    <i class="fas fa-envelope"></i>
+                    <input type="email" id="login-email" placeholder="Email" required>
+                </div>
+                <div class="input-group">
+                    <i class="fas fa-lock"></i>
+                    <input type="password" id="login-password" placeholder="Password" required>
+                </div>
+                <button type="submit" class="cta-btn" style="width: 100%; margin-top: 1rem;">Login</button>
+            </form>
+            <p style="text-align: center; margin-top: 1rem;">
+                New user? <a href="register.html">Create Account</a>
+            </p>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+    <script src="js/auth.js"></script>
+    <script src="js/chatbot.js"></script>
+    <script src="js/payment.js"></script>
+</body>
+
+</html>
